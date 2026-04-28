@@ -28,6 +28,14 @@ const handleLoginFunc = async (data)=>{
 // const email = e.target.email.value;
 // const password = e.target.password.value;
 console.log(res, error);
+
+   if (error) {
+            alert(error.message)
+        }
+
+        if (res) {
+            alert("Signin Successful")
+        }
 }
 
 console.log(watch ("email"));

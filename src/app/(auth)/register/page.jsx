@@ -38,7 +38,7 @@ const RegisterPage = () => {
         if (res) {
             alert("SignUp Successful")
         }
-    }
+    };
 
 
     return (
